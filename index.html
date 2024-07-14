@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="/icons/favicon-32x32.png">
+    <title>Remote</title>
+</head>
+<body>
+    <nav>
+        <ul class="my-list">
+            <li class="logo">snap</li>
+            <li class="drop-down-li"><a class="web-links" href="#" >Features <img src="icons/icon-arrow-down.svg" class="show" alt="" ><img class="hide" src="icons/icon-arrow-up.svg" alt=""></a>
+                <ul class="drop-down-list">
+                    <li><a class="web-links" href="#"><img class="space" src="icons/icon-todo.svg" alt="">Todo list</a></li>
+                    <li><a class="web-links" href="#"><img class="space" src="icons/icon-calendar.svg" alt="">Calender</a></li>
+                    <li><a class="web-links" href="#"><img class="space" src="icons/icon-reminders.svg" alt="">Reminders</a></li>
+                    <li><a class="web-links" href="#"><img class="space" src="icons/icon-planning.svg" alt="">Planing</a></li>
+                </ul>
+            </li>
+            <li class="drop-down-li-2"><a class="web-links"  href="#">Company<img src="icons/icon-arrow-down.svg" class="show" alt="" ><img class="hide" src="icons/icon-arrow-up.svg" alt=""></a>
+                <ul class="drop-down-list-company">
+                    <li><a href="#">History</a></li>
+
+                    
+                    <li><a  href="#">Our team</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </li>
+            <li><a class="web-links"  href="#">Careers</a></li>
+            <li><a class="web-links"  href="#">About</a></li>
+        </ul>
+
+<!-- my login list -->
+
+        <ul class="sign-in">
+            <li><a class="web-links"  href="#">Login</a></li>
+            <li><a class="btn web-links" href="#">Register</a></li>
+            <li onclick="showSideBar()"><img class="show-side-bar" src="icons/icon-menu.svg" alt=""></li>
+        </ul>
+
+
+        <!-- mobile nav -->
+         <div class="side-bar">
+        <ul class="color">
+            <li onclick="closeSideBar()" class="close-side-bar"><img src="icons/icon-close-menu.svg" alt=""></li>
+            <li class="mobile-drop-down-li"><a href="#" >Features <img src="icons/icon-arrow-down.svg" class="show" alt="" ><img class="hide" src="icons/icon-arrow-up.svg" alt=""></a>
+                <ul class="drop-down-list-mobile">
+                    <li><a href="#"><img class="space" src="icons/icon-todo.svg" alt="">Todo list</a></li>
+                    <li><a href="#"><img class="space" src="icons/icon-calendar.svg" alt="">Calender</a></li>
+                    <li><a href="#"><img class="space" src="icons/icon-reminders.svg" alt="">Reminders</a></li>
+                    <li><a href="#"><img class="space" src="icons/icon-planning.svg" alt="">Planning</a></li>
+                </ul>
+            </li>
+            <li class="mobile-drop-down-li"><a href="#">Company<img src="icons/icon-arrow-down.svg" class="show" alt="" ><img class="hide" src="icons/icon-arrow-up.svg" alt=""></a>
+                <ul class="drop-down-list-mobile">
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Our team</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <!-- my login list for my mobile -->
+
+        <ul class="mobile-sign-in">
+            <li><a href="#">Login</a></li>
+            <li><a class="btn" href="#">Register</a></li>
+
+        </ul>
+    </div>
+    </nav>
+
+    
+
+
+
+    
+
+
+    <section class="section-1">
+        <main >
+
+            <div>
+                <h1>Make remote work</h1>
+            </div>
+
+            <div>
+                <p class="info">
+                    Get your team in sync, no matter your location.
+                    Streamline processes, create team rituals, and watch productivity soar.
+                </p>
+            </div>
+
+            <div>
+                <button class="btn-2">Learn more</button>
+            </div>
+
+            <div class="last-div">
+                <img class="mobile-clients" src="icons/client-databiz.svg" alt="">
+                <img class="mobile-clients" src="icons/client-audiophile.svg" alt="">
+                <img class="mobile-clients" src="icons/client-meet.svg" alt="">
+                <img class="mobile-clients" src="icons/client-maker.svg" alt="">
+            </div>
+
+        </main>
+
+
+
+        <aside>
+          <img class="remote" src="images/image-hero-desktop.png" alt="">
+          <img class="mobile-remote" src="images/image-hero-mobile.png" alt="">
+        </aside>
+
+    </section>
+
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
