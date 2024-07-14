@@ -174,11 +174,12 @@ nav a:hover{
     position: fixed;
     top: 0;
     right: 0em;
+    z-index: 999;
     display: none;
     flex-direction: column;
     padding: 1em 1.3em;
-    width: 60%;
-    height: 100svh;
+    width: 70%;
+    height: 100vh;
     align-items: start;
     background-color: var(--AlmostWhite);
 
@@ -260,7 +261,7 @@ nav a:hover{
     transition: all 250ms;
 }
 
-.btn-2:focus:hover{
+.btn-2:active:hover{
   border: 2px solid var(--AlmostBlack);
   background-color: var(--AlmostWhite);
   color: var(--AlmostBlack);
@@ -313,17 +314,16 @@ main{
         display: none;
     }
     .mobile-remote{
-       display: flex;
-       width: 100%;
-        margin-inline: auto;
+    display: flex;
+    width: 100%;
+    margin-inline: auto;
     }
     .section-1{
          flex-direction: column-reverse;
-         margin-bottom: 0;
          margin-top: 0;
          text-align: center;
          width: 96%;
-         padding-bottom: 1em;
+         padding-bottom: 0em;
          
     }
 
@@ -332,27 +332,27 @@ main{
         width: 100%;
     }
 
-    .mobile-clients{
-        transform: scale(.76);
-        flex-wrap: nowrap;
-    }
-
     .last-div{
-        margin: 1.5em 0;
+        max-width: 360px;
+        margin-inline: auto;
+        margin-top: 1em;
+        flex-wrap: wrap;
     }
 
+    .mobile-clients{
+        transform: scale(.66);
+
+
+    }
     .info{
         margin: 1.5em 0;
     }
 
+
 }
 
-@media (max-width: 360px){
-    .last-div{
-        flex-direction: column;
-        transform: scale(.56);
-    }
-}
+
+
 
 
 
